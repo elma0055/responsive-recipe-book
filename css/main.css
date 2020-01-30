@@ -59,6 +59,12 @@ footer {
   padding-left: 10px;
 }
 
+p {
+  font-family: minion-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 @media only screen and (min-width: 38em) {
 
   ul {
@@ -112,12 +118,20 @@ figcaption {
     margin-top: 10px;
   }
 
+
 }
 
 @media only screen and (min-width: 20em) {
 
   h1 {
     margin-top: 10px;
+  }
+
+  .topnav a.icon {
+    background: #ddd;
+    display: black;
+    position: absolute;
+    right: 15px;
   }
 
 }
@@ -159,6 +173,14 @@ figcaption {
     width: 35%;
   }
 
+  .topnav a.icon {
+    background: #ddd;
+    display: black;
+    position: absolute;
+    right: 15px;
+    top: 18px;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
@@ -170,6 +192,7 @@ figcaption {
   figcaption {
     width: 30%;
   }
+
 
 }
 
